@@ -57,7 +57,6 @@ python-dotenv==1.0.0
 python-jwt==2.0.1
 pytz==2023.3
 PyYAML==6.0
-requests==2.31.0
 requests-toolbelt==0.7.0
 rich==13.3.5
 rsa==4.9
