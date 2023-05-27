@@ -63,7 +63,7 @@ pytz==2023.3
 PyYAML==6.0
 regex==2023.5.5
 requests==2.31.0
-requests-toolbelt>=0.7.0
+requests-toolbelt==0.7.0
 rich==13.3.5
 rsa==4.9
 six==1.16.0
