@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 config = {
-    "apiKey": os.getenv("FIREBASE_API"),
+    "apiKey": st.secrets['FIREBASE_API'] if not os.getenv("FIREBASE_API") else os.getenv("FIREBASE_API"),
     "authDomain": "pdf-assistant-streamlit.firebaseapp.com",
     "projectId": "pdf-assistant-streamlit",
     "storageBucket": "pdf-assistant-streamlit.appspot.com",
