@@ -29,6 +29,8 @@ PDF-Assistant leverages the power of OpenAI GPT 3.0 to provide accurate and inte
 
 To get started with PDF-Assistant, follow these steps:
 
+:warning: It is recommended to create a virtual environment to avoid any dependency issues.
+
 1. Clone the repository:
 
 ```bash
