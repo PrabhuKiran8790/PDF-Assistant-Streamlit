@@ -53,3 +53,5 @@ pip install -r requirements.txt
 streamlit run Home.py
 ```
 Open your web browser and access the app at `localhost:8051` or the URL provided in the terminal when the `streamlit run Home.py` command runs.
+
+[](https://github.com/PrabhuKiran8790/PDF-Assistant-Streamlit/assets/86601758/8882fea2-222f-43e1-aa18-e18943c74a29)
