@@ -30,25 +30,11 @@ PDF-Assistant leverages the power of OpenAI GPT 3.0 to provide accurate and inte
 
 To get started with PDF-Assistant, follow these steps:
 
-1. Clone the repository.
-2. Install the necessary dependencies.
-3. Set up Firebase for authentication and database management.
-4. Run the web app locally or deploy it to your preferred hosting platform.
+1. Clone the repository:
 
-For detailed instructions, refer to the [Installation Guide](installation-guide.md).
-
-## Contributing
-
-We welcome contributions from the community to enhance PDF-Assistant. To contribute, please follow our [Contributing Guidelines](contributing-guidelines.md).
-
-## Support
-
-If you encounter any issues or have any questions, please open an [issue](link-to-issues-page) on our GitHub repository.
-
-## License
-
-PDF-Assistant is released under the [MIT License](link-to-license-file).
-
----
-
-Start using PDF-Assistant today and unlock the power of AI to enhance your PDF reading and research endeavors! 🎉🔍
+```bash
+git clone https://github.com/PrabhuKiran8790/PDF-Assistant-Streamlit.git
+cd PDF-Assistant-Streamlit
+pip install -r requirements.txt
+streamlit run Home.py
+```
