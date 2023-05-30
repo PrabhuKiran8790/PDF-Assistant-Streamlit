@@ -4,7 +4,7 @@ Welcome to PDF-Assistant, an AI-powered web app that helps you extract valuable 
 
 ## About the App
 
-PDF-Assistant leverages the power of OpenAI GPT 3.0 to provide accurate and intelligent answers to your questions related to PDF content. Whether you're a student, researcher, or professional, our app aims to make your PDF reading experience more efficient and productive. 🚀💡
+PDF-Assistant leverages the power of OpenAI GPT 3.0 to provide accurate and intelligent answers to your questions related to PDF content. 🚀💡
 
 ## Key Features
 
@@ -24,7 +24,6 @@ PDF-Assistant leverages the power of OpenAI GPT 3.0 to provide accurate and inte
 4. Ask any question related to the PDF content using natural language prompts.
 5. Wait for the AI to generate insightful and accurate answers for you.
 6. Explore the past history section to review your previous prompts and responses.
-7. Enjoy a seamless PDF reading experience with the help of AI intelligence!
 
 ## Getting Started
 
@@ -34,7 +33,21 @@ To get started with PDF-Assistant, follow these steps:
 
 ```bash
 git clone https://github.com/PrabhuKiran8790/PDF-Assistant-Streamlit.git
+```
+2. Go to the project directory:
+
+```bash
 cd PDF-Assistant-Streamlit
+```
+3. Install the dependencies:
+
+```bash
 pip install -r requirements.txt
+```
+
+4. Run the streamlit application:
+
+```bash
 streamlit run Home.py
 ```
+Open your web browser and access the app at `localhost:8051` or the URL provided in the terminal when the `streamlit run Home.py` command runs.
